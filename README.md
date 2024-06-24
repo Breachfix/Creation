@@ -25,24 +25,27 @@ Welcome to the Creation Management API! This project is built using **Node.js**,
    ```bash
    git clone https://github.com/yourusername/creation-management-api.git
    cd creation-management-api
-Install dependencies
+   ```
+   
+2 **Install dependencies**
 
-bash
-Copy code
-npm install
-Start MongoDB
+   ```bash
+   Copy code
+   npm install
+   Start MongoDB
+   ```
 
-bash
-Copy code
-mongod --port 27017
-Start the server
+   ```bash   
+   mongod --port 27017
+   Start the server
+   ```
 
-bash
-Copy code
-npm start
-📂 Directory Structure
-bash
-Copy code
+    ```bash
+    npm start
+    ```
+    
+### 📂 Directory Structure
+```
 project-directory/
 ├── models/
 │   ├── animal.js
@@ -61,9 +64,12 @@ project-directory/
 ├── index.js
 ├── package.json
 └── README.md
-📋 API Endpoints
-🐾 Animals
-Create a New Animal
+```
+
+## 📋 API Endpoints
+
+### 🐾 Animals
+#### Create a New Animal
 URL: /animals
 Method: PUT
 Headers:
