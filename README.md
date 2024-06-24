@@ -190,7 +190,7 @@ project-directory/
 
 ### 🌟 Additional Endpoints
 
-####Retrieve All Entities
+#### Retrieve All Entities
 **URL**: `/animals, /lights, /plants, /celestial-bodies, /humans, /institutions`
 **Method**: `GET`
 
@@ -274,7 +274,7 @@ If no entities found:
   "message": "Entity deleted successfully"
 }
 ```
-📜 License
+#### 📜 License
 This project is licensed under the MIT License.
 
 Happy coding! 🚀
